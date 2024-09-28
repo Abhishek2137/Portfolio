@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right , black , gray);
+}
+#navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black ;
+}
+#navbar img{
+    width: 90px;
+    height: auto;
+    margin-left: 30px;
+}
+#listButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: auto;
+}
+#navbar #listButtonContainer ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 15px;
+}
+#navbar #listButtonContainer ul li{
+    padding: 5px 15px;
+}
+#navbar #listButtonContainer ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    transition: .5s all;
+}
+#navbar #listButtonContainer ul li a:hover{
+    border-bottom: 1px solid black;
+    color: white;
+    letter-spacing: 1px;
+}
+#listButtonContainer button{
+    padding: 8px 18px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow:1px 3px 8px ;
+    transition: .5s all;
+}
+#listButtonContainer button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+
+/*Home background section*/
+#mainBgContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#mainBgContainer #infoContainer{
+    width: 45%;
+    height: auto;
+    padding: 20px;
+}
+#mainBgContainer #infoContainer h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+#mainBgContainer #infoContainer p{
+    font-size: 20px;
+    color: white;
+}
+#mainBgContainer #imageContainer{
+    width: 45%;
+    height: auto;
+    padding: 20px;
+    border-radius: 2px;
+}
+#mainBgContainer #imageContainer img{
+    width: 75%;
+    height: auto;
+    border-radius: 15px;
+
+}
+
+/*Math container section */
+#mathssection{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#mathssection .Math_container{
+    width: 30%;
+    height: auto;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+    background-color: rgb(95, 138, 255);
+    margin: 10px 15px;
+    border-radius: 10px;
+}
+#mathssection .Math_container h1{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#mathssection .Math_container p{
+    font-size: 20px;
+    text-align: center;
+}
+#mathssection .Math_container a{
+    font-size: 18px;
+    padding: 10px 25px;
+    border: 1px solid black;
+    background-color: navy;
+    color: white;
+    transition: .5s all;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#mathssection .Math_container a:hover{
+    background-color: white;
+    color: navy;
+}
+
+/*Footer section*/
+#footer{
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+#footer .logoMediaContainer{
+    width: 40%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#footer .logoMediaContainer img{
+    width: 250px;
+    height: auto;
+    box-shadow: 2px 5px 10px aqua , 2px 5px 25px aqua ;
+    border-radius: 50%;
+}
+#footer .logoMediaContainer ul{
+    display: flex;
+    list-style-type: none;    
+    margin-top: 20px;
+}
+#footer .logoMediaContainer ul li{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+}
+#footer .logoMediaContainer ul li a{
+    text-decoration: none;
+    color: white;
+}
+#footer .listContainer{
+    width: 40%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#footer .listContainer ul{
+    list-style-type: none;
+}
+#footer .listContainer ul li {
+    margin-bottom: 10px;
+}
+#footer .listContainer ul li a{
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}

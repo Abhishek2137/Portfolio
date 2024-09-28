@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right , black , gray);
+}
+#navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black ;
+}
+#navbar img{
+    width: 90px;
+    height: auto;
+    margin-left: 30px;
+}
+#listButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: auto;
+}
+#navbar #listButtonContainer ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 15px;
+}
+#navbar #listButtonContainer ul li{
+    padding: 5px 15px;
+}
+#navbar #listButtonContainer ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    transition: .5s all;
+}
+#navbar #listButtonContainer ul li a:hover{
+    border-bottom: 1px solid black;
+    color: white;
+    letter-spacing: 1px;
+}
+#listButtonContainer button{
+    padding: 8px 18px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow:1px 3px 8px ;
+    transition: .5s all;
+}
+#listButtonContainer button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.navUnderHeading{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+/*Info Container section*/
+#infoContainer{
+    width: 100%;
+    height: auto;
+    padding: 15px 60px;
+}
+#infoContainer p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+#infoContainer h1{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/*Team Member Container section*/
+#TeamContainer{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 10px 30px;
+    background-color: black;
+}
+#TeamContainer h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: white;
+}
+#TeamContainer .MemberContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#TeamContainer .MemberContainer .specificMember{
+    width: 40%;
+    height: 800px;
+    display: grid;
+    place-items: center;
+    padding: 10px 20px;
+    margin: 10px;
+}
+#TeamContainer .MemberContainer .specificMember img{
+    width: 80%;
+    height: auto;
+}
+#TeamContainer .MemberContainer .specificMember h2{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}

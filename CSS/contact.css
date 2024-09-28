@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right , black , gray);
+}
+#navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black ;
+}
+#navbar img{
+    width: 90px;
+    height: auto;
+    margin-left: 30px;
+}
+#listButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: auto;
+}
+#navbar #listButtonContainer ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 15px;
+}
+#navbar #listButtonContainer ul li{
+    padding: 5px 15px;
+}
+#navbar #listButtonContainer ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 18px;
+    transition: .5s all;
+}
+#navbar #listButtonContainer ul li a:hover{
+    border-bottom: 1px solid black;
+    color: white;
+    letter-spacing: 1px;
+}
+#listButtonContainer button{
+    padding: 8px 18px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    box-shadow:1px 3px 8px ;
+    transition: .5s all;
+}
+#listButtonContainer button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.navUnderHeading{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+/*Contact Information section*/
+#formInfoContainer{
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#formInfoContainer .infoContainer{
+    width: 40%;
+    height: auto;
+    color: white;
+}
+#formInfoContainer .infoContainer h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#formInfoContainer .infoContainer h1 p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#formInfoContainer .formContainer{
+    width: 40%;
+    height: auto;
+}
+#formInfoContainer .formContainer input , textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+#formInfoContainer .formContainer button{
+    width: 150px;
+    height: auto;
+    font-size: 18px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: .5s all;
+}
+#formInfoContainer .formContainer button:hover{
+    letter-spacing: 1px;
+    cursor: pointer;
+}
